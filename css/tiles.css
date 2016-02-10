@@ -1,0 +1,264 @@
+html {
+    height: 100%;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+#location-map {
+  width: 100%;
+  height: 300px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 0 2px 0 #666;
+
+  margin: 0 auto;
+}
+
+.screen {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: black;
+
+    overflow: hidden;
+}
+
+.tile {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: white;
+}
+
+.tile-cover {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, #f55, #f83);
+}
+
+.tile-content {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, #359, #6bf);
+}
+
+.tile-text {
+    position: absolute;
+    text-align: center;
+
+    width: 100%;
+    height: 1em;
+
+    margin-top: -0.5em;
+
+    top: 50%;
+
+    color: #c33;
+}
+
+.tile-enter {
+    position: absolute;
+
+    width: 32px;
+    height: 32px;
+
+    margin-top: 1em;
+    margin-left: -16px;
+
+    top: 50%;
+    left: 50%;
+
+    background-image: url(../img/enter.svg);
+
+    cursor: pointer;
+}
+
+.tile-icon {
+    position: absolute;
+
+    width: 64px;
+    height: 64px;
+
+    margin-bottom: 1em;
+    margin-left: -32px;
+
+    bottom: 50%;
+    left: 50%;
+
+    background-image: url(../img/felipetavares.jpg);
+    background-size: contain;
+
+    border-radius: 32px;
+    box-shadow: 0 0 2px 0 black inset;
+}
+
+.page {
+    font-size: 0.5em;
+    line-height: 2em;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    color: #666;
+
+    overflow-y: auto;
+}
+
+.page>.center {
+    width: 600px;
+
+    padding: 1em;
+
+    margin: 72px auto;
+
+    background: none;
+    color: #fff;
+
+    border-radius: 6px;
+/*    box-shadow: 0 0 2px 0 #444;*/
+}
+
+.page h1 {
+    color: black;
+    text-align: center;
+}
+
+.page em {
+    color: black;
+}
+
+.screen-indicator {
+    position: relative;
+
+    text-align: center;
+
+    left: -6px;
+
+    height: 12px;
+
+    width: 100%;
+}
+
+.indicator-tile {
+    display: inline-block;
+
+    width: 12px;
+    height: 12px;
+
+    margin-left: 6px;
+
+    border-radius: 6px;
+
+    background: #a24;
+
+    cursor: pointer;
+}
+
+.tile-content>.close {
+    position: absolute;
+
+    width: 32px;
+    height: 32px;
+
+    top: 24px;
+    right: 24px;
+
+    background-image: url(../img/close.svg);
+
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.c152 {
+    position: relative;
+
+    width: 152px;
+    height: 152px;
+
+    left: 50%;
+
+    margin-left: -76px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 2px 0 black;
+}
+
+.c48i {
+    position: relative;
+
+    width: 48px;
+    height: 48px;
+
+    left: 50%;
+
+    margin-left: -24px;
+}
+
+.full {
+    width: 600px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 2px 0 black;
+}
+
+.page .subtitle {
+    font-style: italic;
+    color: black;
+    font-emphasis: italic;
+    text-align: center;
+}
+
+.page .skill {
+}
+
+a {
+    color: white;
+
+    text-decoration: none;
+
+    background: linear-gradient(0deg, #05a, #05c);
+
+    border-radius: 6px;
+    padding: 2px 6px;
+}
+
+.a:hover {
+    background: linear-gradient(0deg, #005, #008);
+}
